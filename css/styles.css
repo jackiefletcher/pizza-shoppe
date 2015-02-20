@@ -1,3 +1,17 @@
 .result {
   display: none;
 }
+
+
+#pizza-order {
+  background-color: #87cef9;
+  border-style: solid;
+  border-weight: thick;
+  border-color: black;
+  border-radius: 10px;
+}
+
+
+.text {
+  text-align: center;
+}
