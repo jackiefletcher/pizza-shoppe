@@ -1,6 +1,6 @@
 INTRODUCTION
 ------------
-The shipment calculator app allows users determine the cost based on the package details.
+The pizza shoppe app allows users determine the number of slices based on the pizza toppings and size.
 
 REQUIREMENTS
 ------------
@@ -14,20 +14,17 @@ Open the following file in directory to launch the app:
 
 KNOWN BUGS
 ---------
-Search icon is not active.
+Size must be entered as integer.
 
 AUTHOR
 -------
-Lauren Marcus
-lauren.e.marcus@gmail.com
-
 Jackie Fletcher
 jaxskirv@gmail.com
 
 LICENSE
 -------
 
-Copyright (c) 2015 Lauren Marcus & Jackie Fletcher
+Copyright (c) 2015 Jackie Fletcher
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
