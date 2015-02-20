@@ -4,13 +4,13 @@ describe("Pizza", function() {
       var testPizza = Object.create(Pizza);
       testPizza.size = 16
       testPizza.toppings = "cheese"
-      expect(testPizza.numSlices()).to.equal(12)
+      expect(testPizza.numSlices()).to.equal(13)
     });
     it("determine number of slices in the pepperoni pizza", function() {
       var testPizza = Object.create(Pizza);
       testPizza.size = 11
       testPizza.toppings = "pepperoni"
-      expect(testPizza.numSlices()).to.equal(8)
+      expect(testPizza.numSlices()).to.equal(7)
     });
   });
 

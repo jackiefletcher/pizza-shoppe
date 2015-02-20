@@ -14,12 +14,12 @@
       <p>Guaranteed delivery in 30 minutes or less!</p>
       <form id="pizza-order" class="form-horizontal">
         <div class="form-group">
-          <label for="pizza-size" class="col-sm-4 control-label">What size would you like (in inches)?</label>
+          <label for="pizza-size" class="col-sm-4 control-label">What size would you like <br>(enter in inches)?</label>
           <div class="col-sm-4">
             <select class="form control" input id="pizza-size" name="pizza-size">
-              <option value="8">8</option>
-              <option value="10">10</option>
-              <option value="12">12</option>
+              <option value=8>8</option>
+              <option value=10>11</option>
+              <option value=12>16</option>
             </select>
           </div>
         </div>
@@ -34,6 +34,10 @@
         </div>
         <button type="submit" class="btn btn-primary">Place Order</button>
       </form>
+
+      <div class="result">
+        <p>Your pizza will have <span class="slices"></slices> slices. Is that enough?</p>
+      </div>
 
     </div>
   </body>
