@@ -17,16 +17,15 @@ $(document).ready(function() {
     event.preventDefault()
 
     var newSize = parseInt($("input#pizza-size").val());
-    var newToppings = $("input#pizza-toppings").val();
+    var newToppings = $("select#pizza-toppings option:selected").val();
     var newPizza = Object.create(Pizza);
     newPizza.size = newSize;
     newPizza.toppings = newToppings;
-debugger;
+
     $(".slices").text(newPizza.numSlices());
     $(".result").show();
 
     $("input#pizza-size").val("");
-    $("input#pizza-toppings").val("");
-
+    
   });
 });
